@@ -1192,7 +1192,7 @@ include 'inc/functions.php';
                                 <h3>Papan Pendahulu Slot Komuniti: Bersaing dan Menang Besar</h3>
                                 <p class="mb-2">Setiap putaran dan pertaruhan menyumbang kepada papan pendahulu mingguan kami, di mana pemain Malaysia bersaing untuk tempat teratas. Kumpul mata dalam permainan kegemaran anda untuk naik pangkat dan rebut hadiah yang semakin hebat bila anda berada di kedudukan atas.</p>
                                 <ul>
-                                    <li class="mb-2"><a href="<?php echo $site_base_url;?>/bonus-promosi"><strong>Winmy bonus tunai</strong></a> sehingga RM1,000 untuk <strong>tiga pemenang teratas</strong></li>
+                                    <li class="mb-2"><a href="<?php echo $site_base_url;?>/bonus-promosi/"><strong>Winmy bonus tunai</strong></a> sehingga RM1,000 untuk <strong>tiga pemenang teratas</strong></li>
                                     <li class="mb-2">100–500 putaran percuma pada slot terpilih untuk pencapaian tertentu</li>
                                     <li class="mb-2">Barangan eksklusif winmy edisi terhad (kad TNG, T-shirt)</li>
                                     <li class="mb-2">Jemputan ke acara VIP dan pengganda mata bonus untuk pemain elit</li>

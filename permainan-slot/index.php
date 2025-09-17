@@ -98,7 +98,7 @@ include '../inc/functions.php';
                                 <p>RTP tunjuk peratusan pulangan jangka panjang, manakala volatiliti ukur kekerapan dan saiz kemenangan. Volatiliti rendah beri kemenangan kecil kerap; tinggi beri kemenangan besar jarang.</p>
                                 <p>&nbsp;</p>
                                 <h3>Saiz Pertaruhan, Garisan Bayaran & Simbol Khas</h3>
-                                <p>Laraskan pertaruhan setiap garisan dan bilangan garisan aktif ikut bajet. Wild gantikan simbol lain, manakala scatter kerap picu putaran percuma atau <a href="<?php echo $site_base_url;?>/bonus-promosi"><strong>pusingan bonus</strong></a>.</p>
+                                <p>Laraskan pertaruhan setiap garisan dan bilangan garisan aktif ikut bajet. Wild gantikan simbol lain, manakala scatter kerap picu putaran percuma atau <a href="<?php echo $site_base_url;?>/bonus-promosi/"><strong>pusingan bonus</strong></a>.</p>
                                 <p>&nbsp;</p>
                                 <h3>Panduan Ringkas Cara Putar</h3>
                                 <ol>
@@ -181,7 +181,7 @@ include '../inc/functions.php';
                                 </div>
                                 <p>&nbsp;</p>
                                 <h3>Bonus Eksklusif Mudah Alih</h3>
-                                <p>Dapatkan putaran percuma dan padanan deposit tambahan apabila main di telefon. Tawaran terkini ada di halaman <a href="<?php echo $site_base_url;?>/bonus-promosi"><strong>Bonuses & Promotions</strong></a>.</p>
+                                <p>Dapatkan putaran percuma dan padanan deposit tambahan apabila main di telefon. Tawaran terkini ada di halaman <a href="<?php echo $site_base_url;?>/bonus-promosi/"><strong>Bonuses & Promotions</strong></a>.</p>
                                 <p>&nbsp;</p>
 
                                 <h2>Kejohanan Slot & Papan Pendahulu</h2>

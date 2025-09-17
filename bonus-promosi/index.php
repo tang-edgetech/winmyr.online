@@ -8,7 +8,7 @@ include '../inc/functions.php';
 <!DOCTYPE html>
 <html lang="ms-MY" dir="ltr">
     <head>
-        <link rel="canonical" href="https://winmy.info/bonus-promosi">
+        <link rel="canonical" href="https://winmy.info/bonus-promosi/">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="author" content="winmy">
@@ -28,7 +28,7 @@ include '../inc/functions.php';
         <!-- Open Graph / Facebook -->
         <meta property="og:locale" content="ms-MY">
         <meta property="og:type" content="article">
-        <meta property="og:url" content="https://winmy.online/bonus-promosi">
+        <meta property="og:url" content="https://winmy.online/bonus-promosi/">
         <meta property="og:title" content="Bonus & Promosi WINMY: Tawaran Harian & VIP">
         <meta property="og:description" content="Dapatkan tawaran terbaru di WINMY: bonus deposit, free spin, cashback mingguan, dan promosi VIP eksklusif. Semak sekarang dan tingkatkan peluang menang anda!">
         <meta property="og:site_name" content="winmy.online">
