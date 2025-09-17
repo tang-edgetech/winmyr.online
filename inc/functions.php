@@ -1,12 +1,12 @@
 <?php
 $localhost = array('127,0,0,1', 'localhost', '::1');
 if ( !in_array( $_SERVER['REMOTE_ADDR'], $localhost ) ) {
-    $site_base_url = 'https://winmyr.online';
-    $site_base_url_en = 'https://winmyr.online/en';
+    $site_base_url = 'https://winmy.info';
+    $site_base_url_en = 'https://winmy.info/en';
 }
 else {
-    $site_base_url = 'http://localhost/winmyr.online';
-    $site_base_url_en = 'http://localhost/winmyr.online/en';
+    $site_base_url = 'http://localhost/winmy.info';
+    $site_base_url_en = 'http://localhost/winmy.info/en';
 }
 $site_title = 'WINMYR';
 if( !empty($page_name) ) {
@@ -92,7 +92,7 @@ $disclaimer_items = [
 //         "target" => "_self",
 //     ],
 //     [
-//         "title" => "VIP Programme in LPK777",
+//         "title" => "VIP Programme in WINMY",
 //         "url" => "vip",
 //         "target" => "_self",
 //     ],
@@ -398,10 +398,15 @@ $gameProviders = [
     ],
 ];
 $top_brands = [
-    "winmy" => [
-        "title" => "WINMY",
-        "description" => "Welcome Bonus 60%",
-        "url" => "https://winmy.asia/register/referer/a6e0ace56f",
+    "win111" => [
+        "title" => "WIN111",
+        "description" => "Refer to Your Friends & Earn RM50",
+        "url" => "https://tinyurl.com/4p7t4c9c",
+    ],
+    "winbebas" => [
+        "title" => "WINBEBAS",
+        "description" => "Refer to Your Friends & Earn RM50",
+        "url" => "https://www.winbebas.com/register/?affiliateCode=wbbseo5",
     ],
     "win4u" => [
         "title" => "WIN4U",
