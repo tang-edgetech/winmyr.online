@@ -23,7 +23,7 @@ include '../inc/functions.php';
         <!-- Schema.org for Google -->
         <meta itemprop="name" content="Program VIP WINMY: Ganjaran & Keistimewaan">
         <meta itemprop="description" content="Sertai Program VIP WINMY dan nikmati ganjaran eksklusif: cashback tinggi, bonus istimewa, dan akses awal ke promosi. Kelayakan automatik berdasarkan taruhan & deposit.">
-        <meta itemprop="image" content="<?php echo $site_base_url;?>/images/winmy_logo.webp">
+        <meta itemprop="image" content="<?= $site_base_url;?>/images/winmy_logo.webp">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:locale" content="ms-MY">
@@ -32,13 +32,37 @@ include '../inc/functions.php';
         <meta property="og:title" content="Program VIP WINMY: Ganjaran & Keistimewaan">
         <meta property="og:description" content="Sertai Program VIP WINMY dan nikmati ganjaran eksklusif: cashback tinggi, bonus istimewa, dan akses awal ke promosi. Kelayakan automatik berdasarkan taruhan & deposit.">
         <meta property="og:site_name" content="winmy.info">
-        <meta property="og:image" content="<?php echo $site_base_url;?>/images/winmy_logo.webp">
-        <meta property="article:tag" content="winmy">
-        <meta property="article:tag" content="Program VIP">
-        <meta property="article:tag" content="ganjaran VIP">
-        <meta property="article:tag" content="keistimewaan VIP">
-        <base href="<?php echo $site_base_url;?>">
+        <meta property="og:image" content="<?= $site_base_url;?>/images/winmy_logo.webp">
+        <meta property="article:tag" content="WINMY vip">
+        <meta property="article:tag" content="WINMY kasino">
+        <meta property="article:tag" content="ganjaran eksklusif">
+        <meta property="article:tag" content="WINMY bonus">
+        <meta property="article:tag" content="vip WINMY">
+        <meta property="article:tag" content="slot vip malaysia">
+        <meta property="article:tag" content="VIP kasino Malaysia">
+        <base href="<?= $site_base_url;?>">
         <?php include '../inc/stylesheet.php';?>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "WINMY",
+                    "item": "https://winmy.info"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "VIP",
+                    "item": "https://winmy.info/vip/"
+                }
+            ]
+        }
+        </script>
+
     </head>
     <body>
         <?php include '../inc/navbar.php';?>
@@ -54,7 +78,7 @@ include '../inc/functions.php';
                                 foreach( $top_brands as $key => $brand ) {
                                     $brand_title = $brand['title'];
                                     $brand_desc = $brand['description'];
-                                    $brand_thumbnail = $site_base_url.'/images/top_brand/top_brand_'.$key.'.png';
+                                    $brand_thumbnail = $site_base_url.'/images/top_brand/top_brand_'.$key.'.webp';
                                     $brand_link = $brand['url'];
                             echo '<div class="top-brand-item '.$key.' p-2">
                                 <div class="top-brand-inner d-flex align-items-center justify-content-start">
@@ -311,7 +335,7 @@ include '../inc/functions.php';
                         <div class="col-12 px-4">
                             <div class="text-editor">
                                 <h1>WINMY VIP Slot - Cashback & Ganjaran Eksklusif </h1>
-                                <p><strong>Program <a href="<?php echo $site_base_url;?>"><strong>WINMY</strong></a> VIP</strong> membawa pengalaman permainan anda ke tahap lebih tinggi bermakna lebih daripada sekadar pertaruhan besar. Ia bermaksud ganjaran peribadi dan perkhidmatan yang menghargai kesetiaan anda. <strong>VIP program</strong> ni mengiktiraf komitmen anda dengan keistimewaan yang tidak terdapat di tempat lain. </p>
+                                <p><a href="<?= $site_base_url;?>/vip/"><strong>Program WINMY VIP</strong></a> membawa pengalaman permainan anda ke tahap lebih tinggi bermakna lebih daripada sekadar pertaruhan besar. Ia bermaksud ganjaran peribadi dan perkhidmatan yang menghargai kesetiaan anda. <strong>VIP program</strong> ni mengiktiraf komitmen anda dengan keistimewaan yang tidak terdapat di tempat lain. </p>
                                 <p>&nbsp;</p>
 
                                 <h2>Mengapa Sertai Kelab VIP?</h2>
@@ -323,7 +347,7 @@ include '../inc/functions.php';
                                 <p>&nbsp;</p>
                                 
                                 <h2>Kemajuan Tahap Lebih Pantas</h2>
-                                <p>Ahli VIP menikmati peningkatan mata istimewa dan promosi terarah yang mempercepat kenaikan tahap. Semasa kempen perayaan, setiap RM1 pertaruhan boleh mendapat 2× atau 3× mata, membolehkan anda capai status Silver, Gold, atau Platinum dengan lebih cepat.</p>
+                                <p>Ahli VIP menikmati peningkatan mata istimewa dan <a href="<?= $site_base_url;?>/bonus-promosi/"><strong>promosi terarah</strong></a>  yang mempercepat kenaikan tahap. Semasa kempen perayaan, setiap RM1 pertaruhan boleh mendapat 2× atau 3× mata, membolehkan anda capai status Silver, Gold, atau Platinum dengan lebih cepat.</p>
                                 <p>&nbsp;</p>
                                 <div class="table-wrapper">
                                     <table class="table table-striped">
@@ -372,7 +396,7 @@ include '../inc/functions.php';
                                 <p>&nbsp;</p>
                                 
                                 <h2>Ciri Eksklusif Hanya untuk VIP</h2>
-                                <p>Kelab VIP <a href="<?php echo $site_base_url;?>"><strong>WINMY</strong></a> menawarkan kelebihan unik yang memastikan pemain paling setia menerima layanan luar biasa.</p>
+                                <p>Kelab VIP <a href="<?= $site_base_url;?>"><strong>WINMY</strong></a> menawarkan kelebihan unik yang memastikan pemain paling setia menerima layanan luar biasa.</p>
                                 <p>&nbsp;</p>
                                 <h3>Cashback Ulang Tahun</h3>
                                 <p>Raikan ulang tahun keahlian anda dengan bonus cashback khas yang dikira berdasarkan kerugian bersih tahunan. Ini adalah tanda penghargaan kami kerana terus bersama.</p>
@@ -388,11 +412,11 @@ include '../inc/functions.php';
                                 <p>Selesaikan pengesahan akaun dengan cepat melalui proses KYC dipercepat. Setelah disahkan, anda menikmati masa pengeluaran terpantas, sering kali dalam beberapa jam sahaja.</p>
                                 <p>&nbsp;</p>
                                 <h3>Penyulitan Tambahan untuk Akaun VIP</h3>
-                                <p>Akaun VIP menerima lapisan penyulitan dan pemeriksaan integriti tambahan. Kami lindungi data sensitif untuk memastikan maklumat peribadi dan kewangan anda selamat. Sila rujuk <a href="<?php echo $site_base_url;?>/dasar-privasi"><strong>Privacy Policy</strong></a> untuk maklumat penuh.</p>
+                                <p>Akaun VIP menerima lapisan penyulitan dan pemeriksaan integriti tambahan. Kami lindungi data sensitif untuk memastikan maklumat peribadi dan kewangan anda selamat. Sila rujuk <a href="<?= $site_base_url;?>/dasar-privasi"><strong>Privacy Policy</strong></a> untuk maklumat penuh.</p>
                                 <p>&nbsp;</p>
                                 
                                 <h2>Permainan Bertanggungjawab untuk Ahli VIP</h2>
-                                <p>Biarpun di tahap tertinggi, <a href="<?php echo $site_base_url;?>/perjudian-bertanggungjawab"><strong>perjudian bertanggungjawab</strong></a> tetap penting. Ahli VIP mempunyai akses kepada had boleh laras dan sokongan khusus untuk mengekalkan tabiat permainan sihat.</p>
+                                <p>Biarpun di tahap tertinggi, <a href="<?= $site_base_url;?>/perjudian-bertanggungjawab"><strong>perjudian bertanggungjawab</strong></a> tetap penting. Ahli VIP mempunyai akses kepada had boleh laras dan sokongan khusus untuk mengekalkan tabiat permainan sihat.</p>
                                 <p>&nbsp;</p>
                                 <h3>Had Boleh Laras dan Pengecualian Kendiri</h3>
                                 <p>Tetapkan had deposit, kerugian, dan sesi terus dalam tetapan akaun anda. Jika perlu berehat, anda boleh melakukan pengecualian kendiri untuk tempoh yang sesuai.</p>
